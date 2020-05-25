@@ -21,4 +21,4 @@ As both the inputs are of 224 * 224 size, we will resize it as 128 * 128 or 64 *
 **Dataset Utilities:** https://github.com/srilakshmiv14/S15-Project-Mask-and-DepthMap-Images-Prediction-using-Dense-CNN/tree/master/utils <br>
 
 ## Mask and DepthMap Images Prediction using Dense CNN Architecture ##
-![] (https://github.com/srilakshmiv14/S15-Project-Mask-and-DepthMap-Images-Prediction-using-Dense-CNN/blob/master/DepthMap%20and%20Mask%20Image%20Predictor%20CNN%20Architecture.png)
+![Mask and DepthMap Images Prediction using Dense CNN Architecture] (https://github.com/srilakshmiv14/S15-Project-Mask-and-DepthMap-Images-Prediction-using-Dense-CNN/blob/master/DepthMap%20and%20Mask%20Image%20Predictor%20CNN%20Architecture.png)
