@@ -1,3 +1,4 @@
-# S15-Project-Mask-and-DepthMap-Images-Prediction-using-Dense-CNN
-#Getting Started:# <Br>
-#Rewind with Dataset Statistics:#
+# S15-Project-Mask-and-DepthMap-Images-Prediction-using-Dense-CNN <br>
+
+## Getting Started ## 
+## Rewind with Dataset Statistics: ##
