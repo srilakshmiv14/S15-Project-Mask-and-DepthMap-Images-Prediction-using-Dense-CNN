@@ -70,3 +70,22 @@ https://github.com/arraiyopensource/kornia
 SSIM loss compares local region of target pixel between reconstructed and original images, whereas L1 loss compares pixel by pixel.
 
 I compare perceptual loss and perceptual loss + SSIM loss in reconstruction of images. We can see perceptual + SSIM loss outperforms only perceptual loss. You can inspect more about SSIM in neural network field in Arxiv. 
+
+**Basic Usage of Loss Function**
+
+ import pytorch_ssim <br>
+import torch <br>
+from torch.autograd import Variable <br>
+
+img1 = Variable(torch.rand(1, 1, 256, 256)) <br>
+img2 = Variable(torch.rand(1, 1, 256, 256)) <br>
+
+if torch.cuda.is_available(): <br>
+    img1 = img1.cuda() <br>
+    img2 = img2.cuda() <br>
+ 
+print(pytorch_ssim.ssim(img1, img2)) <br>
+
+ssim_loss = pytorch_ssim.SSIM(window_size = 11) <br>
+
+print(ssim_loss(img1, img2)) <br>
