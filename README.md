@@ -4,11 +4,20 @@
 ## Rewind with Dataset Statistics: ##
 
 **Here we are going to have a dataset module, where already creation part done as Session 14/15 A Assignment.** <br>
+|**S.No**|**Image Description**|**Quantity**|
+|**----**|**-----------------**|**--------**|
+|**1.**|**Background Images**|**100**|
+|**2**|**Foreground Images**|**100**|
+|**3**|**Foreground Images Masks**|**100**|
+|**4**|**Bg_Fg Images**|**400000**|
+|**5**|**Bg_Fg Images Masks**|**400000**|
+|**6**|**Bg_Fg DepthMap Images**|**400000**|
 
-**Dataset Colab (pynb):** https://drive.google.com/file/u/0/d/1gVyUY93azAIvZVuts5Pm1J1WG76rYgoA/edit <br>
-**Github link:** https://github.com/srilakshmiv14/EVA-Session-14-15A/blob/master/Session15A_Dataset_Creation.ipynb <br>
-**DepthMap Creation (pynb) Colab:** https://colab.research.google.com/drive/1BvpvWvAAWcUBBtRws20h5am1DiLQsTG3 <br>
-**Github Link:** https://github.com/srilakshmiv14/EVA-Session-14-15A/blob/master/Session_15A_Depthmaps_Dataset_Creation.ipynb <br>
+|**S.No**|**Dataset**|**Link**|
+|**1.**|**Dataset Colab (pynb):**| https://drive.google.com/file/u/0/d/1gVyUY93azAIvZVuts5Pm1J1WG76rYgoA/edit|
+|**2.**|**|**Github link:** https://github.com/srilakshmiv14/EVA-Session-14-15A/blob/master/Session15A_Dataset_Creation.ipynb|
+|**3.**|**|**DepthMap Creation (pynb) Colab:** https://colab.research.google.com/drive/1BvpvWvAAWcUBBtRws20h5am1DiLQsTG3|
+|**4.**|**|**Github Link:** https://github.com/srilakshmiv14/EVA-Session-14-15A/blob/master/Session_15A_Depthmaps_Dataset_Creation.ipynb|
 
 
 ## Dataset and Data Loaders ##
@@ -53,6 +62,8 @@ As both the inputs are of 224 * 224 size, we will resize it as 128 * 128 or 64 *
 •	Returns Output [0] and Output[1] <Br>
 
 **Number of Parameters : 2752064**
+
+**Dense CNN Py File:** https://github.com/srilakshmiv14/S15-Project-Mask-and-DepthMap-Images-Prediction-using-Dense-CNN/blob/master/DNN%20Model/net1.py
 
 **Loss functions:**
 
@@ -120,12 +131,17 @@ Overall loss is calculated as 2 * loss 1 + loss 2
 4.	Predicted Depth Images by obtaining overall loss
 5.	Predicted BgFg Images by obtaining overall loss
 
-## Colab Files ##
+## Final Output ##
+![](https://github.com/srilakshmiv14/S15-Project-Mask-and-DepthMap-Images-Prediction-using-Dense-CNN/blob/master/Final%20Output%20Complete.png)
 
-1.	**Session15b_Model1-sample1.pynb :** https://colab.research.google.com/drive/145XcTkhonq7ibvx1VIICpbD3LW0JoFUm
-2.	**Session15b_Model1-sample2.ipynb :** https://colab.research.google.com/drive/1J8tuFIh64XbQsvyAVTnelbics8CqdlqK
-3.	**Session15b_Model1-sample3.pynb :** https://colab.research.google.com/drive/1WBZpeQwdJqWDQplD9WI5vj4FwWAvuBxg
-4.	**Session15b_Model1-sample4.pynb :** https://colab.research.google.com/drive/19ZcXkcEx6IdAnPb9hbWJQHlzGHcItkVP
+## Project Colab Files ##
+
+|**S.No**|**File**|**Link**|
+|**----**|**----**|**----**|
+|**1.**|**Session15b_Model1-sample1.pynb :**| https://colab.research.google.com/drive/145XcTkhonq7ibvx1VIICpbD3LW0JoFUm|
+|**2.**|**Session15b_Model1-sample2.ipynb :**| https://colab.research.google.com/drive/1J8tuFIh64XbQsvyAVTnelbics8CqdlqK|
+|**3.**|**Session15b_Model1-sample3.pynb :**| https://colab.research.google.com/drive/1WBZpeQwdJqWDQplD9WI5vj4FwWAvuBxg|
+|**4.**|**Session15b_Model1-sample4.pynb :**| https://colab.research.google.com/drive/19ZcXkcEx6IdAnPb9hbWJQHlzGHcItkVP|
 
 
 ## ***Submitted by: Srilakshmi V*** ##
