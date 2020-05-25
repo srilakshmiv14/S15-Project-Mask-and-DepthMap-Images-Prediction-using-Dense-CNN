@@ -51,3 +51,22 @@ As both the inputs are of 224 * 224 size, we will resize it as 128 * 128 or 64 *
 •	Making Out  2 forward layers<Br>
 •	Concatenating of 2 forward layers <Br>
 •	Returns Output [0] and Output[1] <Br>
+
+**Number of Parameters : 2752064**
+
+**Loss functions:**
+
+We are using BCE Loss function and SSIM Loss function.
+
+**SSIM Loss function:**
+Default loss function in encoder-decoder based image reconstruction had been L2 loss. Previously, Caffe only provides L2 loss as a built-in loss layer. Generally, L2 loss makes reconstructed image blurry because minimizing L2 loss means maximizing log-likelihood of Gaussian. As you know Gaussian is unimodal.
+
+L1 gains a popularity over L2 because it tends to create less blurry images. However, using either L1 or L2 loss in learning takes enormous time to converge. Both losses are pointwise, error is back-propagated by pixel by pixel.
+
+Recently have discovered using SSIM Loss in github for image restructuring:
+
+https://github.com/arraiyopensource/kornia
+
+SSIM loss compares local region of target pixel between reconstructed and original images, whereas L1 loss compares pixel by pixel.
+
+I compare perceptual loss and perceptual loss + SSIM loss in reconstruction of images. We can see perceptual + SSIM loss outperforms only perceptual loss. You can inspect more about SSIM in neural network field in Arxiv. 
