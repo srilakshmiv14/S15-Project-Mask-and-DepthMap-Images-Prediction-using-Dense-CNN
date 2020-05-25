@@ -26,8 +26,8 @@ As both the inputs are of 224 * 224 size, we will resize it as 128 * 128 or 64 *
 
 **Architecture Description**  <br>
 Input Layer:  IN channels = 6 (Bg – 3, BgFg – 3), OUT channels – 64, Kernel Size – 3*3  <br>
-Layer 1: IN = 64, OUT = 128, Kernel Size – 3*3 <br>
+Layer 1: IN = 64, OUT = 128, Kernel Size – 3 X 3 <br>
 Residual Block 1: IN = 128, OUT=128, Kernel Size – 3*3 (2 Times) <br>
-Layer 2: IN = 128, OUT=128, Kernel Size – 3*3 <br>
-Layer 3: IN = 128, OUT=256, Kernel Size – 3*3 <br>
-Residual Block 2: IN = 256, OUT=256, Kernel Size – 3*3 (2 Times) <br>
+Layer 2: IN = 128, OUT=128, Kernel Size – 3 X 3 <br>
+Layer 3: IN = 128, OUT=256, Kernel Size – 3 X 3 <br>
+Residual Block 2: IN = 256, OUT=256, Kernel Size – 3 X 3 (2 Times) <br>
