@@ -24,7 +24,7 @@ As both the inputs are of 224 * 224 size, we will resize it as 128 * 128 or 64 *
 ![Mask and DepthMap Images Prediction using Dense CNN Architecture](https://github.com/srilakshmiv14/S15-Project-Mask-and-DepthMap-Images-Prediction-using-Dense-CNN/blob/master/DepthMap%20and%20Mask%20Image%20Predictor%20CNN%20Architecture.png)
 
 
-**Architecture Description** 
+**Architecture Description**  <br>
 Input Layer:  IN channels = 6 (Bg – 3, BgFg – 3), OUT channels – 64, Kernel Size – 3*3  <br>
 Layer 1: IN = 64, OUT = 128, Kernel Size – 3*3 <br>
 Residual Block 1: IN = 128, OUT=128, Kernel Size – 3*3 (2 Times) <br>
