@@ -5,7 +5,7 @@
 
 **Here we are going to have a dataset module, where already creation part done as Session 14/15 A Assignment.** <br>
 |**S.No**|**Image Description**|**Quantity**|
-|**----**|**-----------------**|**--------**|
+|----|-----------------|--------|
 |**1.**|**Background Images**|**100**|
 |**2**|**Foreground Images**|**100**|
 |**3**|**Foreground Images Masks**|**100**|
@@ -137,7 +137,7 @@ Overall loss is calculated as 2 * loss 1 + loss 2
 ## Project Colab Files ##
 
 |**S.No**|**File**|**Link**|
-|**----**|**----**|**----**|
+|----|----|----|
 |**1.**|**Session15b_Model1-sample1.pynb :**| https://colab.research.google.com/drive/145XcTkhonq7ibvx1VIICpbD3LW0JoFUm|
 |**2.**|**Session15b_Model1-sample2.ipynb :**| https://colab.research.google.com/drive/1J8tuFIh64XbQsvyAVTnelbics8CqdlqK|
 |**3.**|**Session15b_Model1-sample3.pynb :**| https://colab.research.google.com/drive/1WBZpeQwdJqWDQplD9WI5vj4FwWAvuBxg|
