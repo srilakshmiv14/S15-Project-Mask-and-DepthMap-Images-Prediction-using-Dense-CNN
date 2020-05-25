@@ -103,3 +103,11 @@ SSIM was already imported through skimage, no need to manually code it. Now we c
 **Binary Cross Entropy – Logit Loss Function/ BCE Loss Function:**
 
 ![Binary Cross Entropy – Logit Loss Function/ BCE Loss Function](https://github.com/srilakshmiv14/S15-Project-Mask-and-DepthMap-Images-Prediction-using-Dense-CNN/blob/master/Binary%20Cross%20Entropy.png)
+
+## Training the Model ##
+
+Here the input images i.e Bg images and BgFg images are passed through forward propagation and loss functions as Criterion 1 and Criterion 2.
+
+Computing Loss between (Output[1], Mask images) as Criterion1 Loss function and Computing Loss between (Output[2], Depth images) as Criterion 2 Loss function.
+
+Overall loss is calculated as 2 * loss 1 + loss 2 
