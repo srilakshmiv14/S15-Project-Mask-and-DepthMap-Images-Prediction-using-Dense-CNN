@@ -81,8 +81,8 @@ img1 = Variable(torch.rand(1, 1, 256, 256)) <br>
 img2 = Variable(torch.rand(1, 1, 256, 256)) <br>
 
 if torch.cuda.is_available(): <br>
-    img1 = img1.cuda() <br>
-    img2 = img2.cuda() <br>
+    *img1 = img1.cuda() <br>
+    *img2 = img2.cuda() <br>
  
 print(pytorch_ssim.ssim(img1, img2)) <br>
 
