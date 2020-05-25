@@ -98,3 +98,8 @@ MSE will calculate the mean square error between each pixels for the two images 
 The only issues are that MSE tends to have arbitrarily high numbers so it is harder to standardize it. While generally the higher the MSE the least similar they are, if the MSE between picture sets differ appears randomly, it will be harder for us to tell anything. SSIM on the other hand puts everything in a scale of -1 to 1 (but I was not able to produce a score less than 0). A score of 1 meant they are very similar and a score of -1 meant they are not similar. 
 
 SSIM was already imported through skimage, no need to manually code it. Now we create a function that will take in two images, calculate it’s mse and ssim and show us the values all at once.different. In my opinion this is a better metric of measurement.
+
+
+**Binary Cross Entropy – Logit Loss Function/ BCE Loss Function:**
+
+![Binary Cross Entropy – Logit Loss Function/ BCE Loss Function](https://github.com/srilakshmiv14/S15-Project-Mask-and-DepthMap-Images-Prediction-using-Dense-CNN/blob/master/Binary%20Cross%20Entropy.png)
