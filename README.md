@@ -111,3 +111,11 @@ Here the input images i.e Bg images and BgFg images are passed through forward p
 Computing Loss between (Output[1], Mask images) as Criterion1 Loss function and Computing Loss between (Output[2], Depth images) as Criterion 2 Loss function.
 
 Overall loss is calculated as 2 * loss 1 + loss 2 
+
+**Inferences and Showing Outputs as 5 Layers:**
+
+1.	Loss 1 of trained model (epochs wise when loss gets decreased this layer will be shown black)
+2.	Loss 2 of trained model (epochs wise when loss gets decreased this layer will be shown black)
+3.	Predicted Mask Images by obtaining overall loss
+4.	Predicted Depth Images by obtaining overall loss
+5.	Predicted BgFg Images by obtaining overall loss
